@@ -1,0 +1,32 @@
+/* #head1 {
+    padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .nextinput {
+        width: 50%;
+    }
+
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} */
+
+.child{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+    display: block;
+}
+
+.child:nth-child(2){
+    visibility: hidden;
+}
+
+
+
